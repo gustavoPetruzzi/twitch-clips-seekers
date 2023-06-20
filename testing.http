@@ -1,0 +1,12 @@
+POST https://id.twitch.tv/oauth2/token?client_id=0h6d0m6tcgoi0ih1akykikapkcn8hp;&client_secret=zgnd01msgb291cndlm576rymy123b2;&grant_type=client_credentials HTTP/1.1
+
+###
+
+GET https://api.twitch.tv/helix/users?login=Nissaxter
+Authorization: Bearer 5jycy60wqnmsopxx28jzwv4og9qtcb
+Client-Id: 0h6d0m6tcgoi0ih1akykikapkcn8hp
+###
+
+GET https://api.twitch.tv/helix/clips?broadcaster_id=42351942&started_at=2022-10-12T07:20:50.52Z
+Authorization: Bearer 5jycy60wqnmsopxx28jzwv4og9qtcb
+Client-Id: 0h6d0m6tcgoi0ih1akykikapkcn8hp
